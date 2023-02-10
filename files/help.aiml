@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>help</pattern>
+	    <template>This AI tool has been created to help discover what computer science fields may interest you the most. This tool asks you a few questions to help guide you. Please type "Start" to begin.</template>
+    </category>
+</aiml>

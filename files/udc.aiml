@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+      <pattern>*</pattern>
+      <template>I am not sure I have an answer for that. Please type "Start" to begin, or type "Help" for more options.</template>
+    </category>
+  
+    <category>
+      <pattern>hi</pattern>
+      <template>Hi! Please type "Start" to begin, or type "Help" for more options.</template>
+    </category>
+  
+    <category>
+       	<pattern>hello</pattern>
+        <template>Hello! Please type "Start" to begin, or type "Help" for more options.</template>
+    </category>
+    
+</aiml>

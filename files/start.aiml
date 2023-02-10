@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>start</pattern>
+    <template>
+      Welcome to the computer science career interest discovery tool. We will work together to try and find what field you are most interested in working in! Starting off, which interests you the most?
+      
+      <button>
+          <text>Web Development</text>
+          <postback>webdev</postback>
+      </button>
+      
+      <button>
+          <text>Database Management</text>
+          <postback>datman</postback>
+      </button>
+      
+      <button>
+          <text>Software Engineering</text>
+          <postback>sofeng</postback>
+      </button>
+      
+      <button>
+          <text>Artificial Intelligence</text>
+          <postback>artint</postback>
+      </button>
+      
+      <button>
+          <text>Cybersecurity</text>
+          <postback>cybsec</postback>
+      </button>
+      
+    </template>
+  </category>
+  
+  <category>
+      <pattern>webdev</pattern>
+      <template>
+          Web Devleopment is growing very quickly! Which skill do you feel you are the strongest in?
+          
+          <button>
+            <text>Programming</text>
+            <postback>webdevprogr</postback>
+          </button>
+      
+          <button>
+            <text>Problem Solving</text>
+            <postback>webdevprobl</postback>
+          </button>
+      
+          <button>
+            <text>Communication</text>
+            <postback>webdevcommu</postback>
+          </button>
+          
+          <button>
+            <text>Design</text>
+            <postback>webdevdesig</postback>
+          </button>
+      
+      </template>
+  </category>
+  
+  <category>
+      <pattern>webdevprogr</pattern>
+      <template>Based on your interest in Web Development and your strength in Programming, you may be well-suited for a career as a Full Stack Developer or a Backend Developer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>webdevprobl</pattern>
+      <template>Based on your interest in Web Development and your strength in Problem Solving, you may be well-suited for a career as a Full Stack Developer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>webdevcommu</pattern>
+      <template>Based on your interest in Web Development and your strength in Communication, you may be well-suited for a career as a Web Developer or a Web Designer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>webdevdesig</pattern>
+      <template>Based on your interest in Web Development and your strength in Design, you may be well-suited for a career as a Front-End Web Developer or a UI/UX Designer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  
+  <category>
+      <pattern>datman</pattern>
+      <template>
+          Database Management is a great way to go! Which skill do you feel you are the strongest in?
+          
+          <button>
+            <text>Programming</text>
+            <postback>datmanprogr</postback>
+          </button>
+      
+          <button>
+            <text>Problem Solving</text>
+            <postback>datmanprobl</postback>
+          </button>
+      
+      </template>
+  </category>
+  
+  <category>
+      <pattern>datmanprogr</pattern>
+      <template>Based on your interest in Database Management and your strength in Programming, you may be well-suited for a career as a Database Administrator or a Database Developer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>datmanprobl</pattern>
+      <template>Based on your interest in Database Management and your strength in Problem Solving, you may be well-suited for a career as a Database Administrator or a Database Developer. If you'd like to start again, please type "start".</template>
+  </category>
+
+
+    <category>
+      <pattern>sofeng</pattern>
+      <template>
+          Software Engineering can be a great path to go down! Which skill do you feel you are the strongest in?
+          
+          <button>
+            <text>Programming</text>
+            <postback>sofengprogr</postback>
+          </button>
+      
+          <button>
+            <text>Problem Solving</text>
+            <postback>sofengprobl</postback>
+          </button>
+      
+          <button>
+            <text>Innovation</text>
+            <postback>sofenginnov</postback>
+          </button>
+
+      </template>
+  </category>
+  
+  <category>
+      <pattern>sofengprogr</pattern>
+      <template>Based on your interest in Software Engineering and your strength in Programming, you may be well-suited for a career as a Software Engineer or a Software Developer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>sofengprobl</pattern>
+      <template>Based on your interest in Software Engineering and your strength in Problem Solving, you may be well-suited for a career as a Software Engineer or a Software Developer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>sofenginnov</pattern>
+      <template>Based on your interest in Software Engineering and your strength in Innovation, you may be well-suited for a career as a Solutions Architect or an Innovation Engineer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>artint</pattern>
+      <template>
+          Artifical Intelligence is growing extremely fast! Which skill do you feel you are the strongest in?
+          
+          <button>
+            <text>Programming</text>
+            <postback>artintprogr</postback>
+          </button>
+      
+          <button>
+            <text>Analysis</text>
+            <postback>artintanaly</postback>
+          </button>
+      </template>
+  </category>
+  
+    <category>
+      <pattern>artintprogr</pattern>
+      <template>Based on your interest in Artifical Intelligence and your strength in Programming, you may be well-suited for a career as a Machine Learning Engineer or a Deep Learning Engineer. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>artintanaly</pattern>
+      <template>Based on your interest in Artifical Intelligence and your strength in Analysis, you may be well-suited for a career as a Machine Learning Engineer or a Data Scientist. If you'd like to start again, please type "start".</template>
+  </category>
+  
+    <category>
+      <pattern>cybsec</pattern>
+      <template>
+          Cyber Security can be a lot of fun! Which skill do you feel you are the strongest in?
+          
+          <button>
+            <text>Programming</text>
+            <postback>cybsecprogr</postback>
+          </button>
+      
+          <button>
+            <text>Problem Solving</text>
+            <postback>cybsecprobl</postback>
+          </button>
+      
+          <button>
+            <text>Critical Thinking</text>
+            <postback>cybseccriti</postback>
+          </button>
+      </template>
+  </category>
+  
+    <category>
+      <pattern>cybsecprogr</pattern>
+      <template>Based on your interest in Software Engineering and your strength in Programming, you may be well-suited for a career as a Security Engineer or a Cybersecurity Analyst. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>cybsecprobl</pattern>
+      <template>Based on your interest in Software Engineering and your strength in Problem Solving, you may be well-suited for a career as a Security Engineer or a Penetration Tester. If you'd like to start again, please type "start".</template>
+  </category>
+  
+  <category>
+      <pattern>cybseccriti</pattern>
+      <template>Based on your interest in Software Engineering and your strength in Critical Thinking, you may be well-suited for a career as a Security Consultant or a Cybersecurity Specialist. If you'd like to start again, please type "start".</template>
+  </category>
+  
+</aiml>
